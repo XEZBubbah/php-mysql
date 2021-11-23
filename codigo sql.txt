@@ -24,3 +24,11 @@ CREATE TABLE pedidos (
     FOREIGN KEY(id_cliente) REFERENCES clientes(id_cliente),
     FOREIGN KEY(id_producto) REFERENCES productos(id_producto),
 )
+
+Eliminar una base de datos 
+
+DROP DATABASE nombre_base_datos
+
+Eliminar tabla de una base de datos 
+
+DROP TABLE nombre_base_datos
